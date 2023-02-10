@@ -146,8 +146,9 @@ Finally, after having the charts, you can add some input controls to filter the 
 
    ![SAC Chart](../../images/ic_all.png)
 
-After defining those filters you can filter the dashboard by country, time, product category, and product variant. This allows for deeper insights into the data by allowing you to view specific subsets of information based on your needs.
+    After defining those filters you can filter the dashboard by country, time, product category, and product variant. This allows for deeper insights into the data by allowing you to view specific subsets of information based on your needs.
 
+4. Save the **Story** e.g. with a name "CategoryMgmt_\<STUDENT"
 
 ## Result
 
