@@ -22,9 +22,50 @@ This exercise will focus on using the views created in a previous exercise to cr
  
     ![Layout](../../images/saclayout.png)
 
+## Exercise 3.2 Assigning the data (Product_Sales_Country_Discount) from SAP DWC to Dashboard
+
+1. 👉 Go to the **Tools** and press **Add new Data**, than select **Data from a data source**
+    
+    ![SAC Data](../../images/sacdata.png)
+
+
+2.  👉 Choose **SAP Data Warehouse Cloud** as a source from the "Connect to Live Data" section
+    
+    ![SAC Data](../../images/sacdwcdata.png)
+
+
+3.  👉 Select the connection, your space and the dataset
+    - Connection: **PAADWC**
+    - Space: **CATEGORY_MGMT_\<STUDENT>**
+    - Dataset: **Product_Sales_Country_Discount**
+  
+    ![SAC Data](../../images/sacdwcdataset.png)
+
 ## Exercise 3.2 Creating the first Chart for displaying **Quantity per Product Category**
 
-1. 👉 Go to the 
+After assigning the dataset, you can start building your first charts
+
+1. 👉 Drag and drop from the left panel a **Chart** widget into the first container
+
+   ![SAC Chart](../../images/sacchart1drag.png)
+
+2. 👉 Select the chart and add the following properties in a **Builder** on the right panel 
+    - Measure: **Quantity**
+    - Dimensions: **Product_Category_Enhanced_Ecommerce**
+
+   ![SAC Chart](../../images/chart1properties.png)
+
+3. 👉 Click on the **...** "More Actions" and rank the **Product_Category_Enhanced_Ecommerce** as **Top 10**, to display top products per category.
+
+   ![SAC Chart](../../images/char1top10.png)
+
+4. 👉 Exclude the **(not set)** and **${productitem.product.origCatName}** attributes by selecting them and pressing **X**
+
+   ![SAC Chart](../../images/char1exclude.png)
+
+5. 👉 Give some proper name ("Quantity per Product Category") and your first chart is ready
+
+   ![SAC Chart](../../images/chart1ready.png)
 
 ## Exercise 3.3 Creating another Chart for displaying **Discount per Product Category**
 
