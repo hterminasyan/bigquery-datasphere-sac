@@ -11,7 +11,7 @@ This usecase provides the ability to analyze category performance for digital/on
 ![Scenario](images/scenario.png)
 
 ## Challenges and Business Drivers
-Multiple scattered source systems (external and SAP) makes analysis of category performance difficult. The inability and the high cost of bringing data sources together make root cause analysis of online sales a burdensome process.
+Data on multiple scattered source systems (external and SAP) make analysis of category performance difficult. The inability and the high cost of bringing data sources together make root cause analysis of online sales a burdensome process.
 
 ## Outcome
 
