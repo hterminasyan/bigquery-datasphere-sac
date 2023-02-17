@@ -121,7 +121,7 @@ In this exercise, you will create a new data view called **"Product Sales Countr
     - Join Type: *Left*
     - Mappings (see screenshot): Date->Date, Product_Category_Enhanced_Ecommerce->category
    
-    ![Join](../../images/join1map.png)
+    ![Join](../../images/join3map.png)
 
 
 6. 👉 Keep the Projection columns unchanged
