@@ -33,7 +33,7 @@ To achieve this we can use public data sets of Google Analytics. In Google BigQu
 
 Connections provide access to data from a wide range of sources, cloud as well as on-premise sources, SAP and Non-SAP sources, and partner tools. They allow space members to use entities from the connected source to acquire, prepare and access data from those sources in SAP Datasphere.
 
-In the "Connections" section of SAP DWC we already created live connectivity to Google Bigquery by providing a service key from GCP account. This connection is used in the next steps of Hands-on challenges to create data views on remote tables from Google BigQuery.
+In the "Connections" section of SAP Datasphere we already created live connectivity to Google Bigquery by providing a service key from GCP account. This connection is used in the next steps of Hands-on challenges to create data views on remote tables from Google BigQuery.
 
 >**IMPORTANT**: Please note, that for this hands-on session, you will not have permission to see the connection in your account like shown in a image below, nevertheless, you can explore how such a connection can be established.
 
