@@ -31,9 +31,9 @@ The challenge is to create the layout for a Category Management Dashboard based 
 
 </details>
 
-## Challenge 2.2 Assigning the data from SAP DWC to Dashboard
+## Challenge 2.2 Assigning the data from SAP Datasphere to Dashboard
 
-The challenge is to add the "Product_Sales_Country_Discount" view from SAP DWC as a data source in SAP SAC.
+The challenge is to add the "Product_Sales_Country_Discount" view from SAP Datasphere as a data source in SAP SAC.
 
 <details>
   <summary>Solution</summary>
@@ -43,7 +43,7 @@ The challenge is to add the "Product_Sales_Country_Discount" view from SAP DWC a
     ![SAC Data](../../images/sacdata.png)
 
 
-2.  👉 Choose **SAP Data Warehouse Cloud** as a source from the "Connect to Live Data" section
+2.  👉 Choose **SAP Datasphere** as a source from the "Connect to Live Data" section
     
     ![SAC Data](../../images/sacdwcdata.png)
 

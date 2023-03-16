@@ -1,11 +1,11 @@
-# Discover - Understand SAP Data Warehouse Cloud and Google BigQuery setup and given data models
+# Discover - Understand SAP Datasphere and Google BigQuery setup and given data models
 
 > **IMPORTANT**: This section is for informational purposes only and does not require any actions to be taken by the participants. Its aim is to provide a better understanding of the preconfigurations. The goal is to provide a clear understanding of the concepts and techniques involved, without the need for any hands-on implementation.
 
 ## Role of SAP Business Technology Platform (SAP BTP)
- - With SAP Data Warehouse Cloud (SAP DWC), customers can federate queries across source systems (SAP and Google) without the need for data replication. 
+ - With SAP Datasphere, customers can federate queries across source systems (SAP and Google) without the need for data replication. 
  - SAP Analytics Cloud (SAC) customers can execute live on the fly analysis across cross-cloud data sources in real-time (and live analytics to SAP HANA systems).
- - Unified SAP data model and semantics propagated from SAP S/4HANA and SAP CX systems to SAP DWC and SAC
+ - Unified SAP data model and semantics propagated from SAP S/4HANA and SAP CX systems to SAP Datasphere and SAC
 
 ## Role of Google Cloud 
  - Query all data types with BigQuery: structured, semi-structured, and unstructured.
@@ -24,14 +24,14 @@ To achieve this we can use public data sets of Google Analytics. In Google BigQu
 
 ![BigQuery](../../images/bigyuerytables.png)
 
-## SAP S/4HANA Sample Sales Data loaded in SAP Data Warehouse Cloud
+## SAP S/4HANA Sample Sales Data loaded in SAP Datasphere
 
 ![BigQuery](../../images/dwctables.png)
 
 
-## Overview - Establishing live data integration between Google BigQuery and SAP Data Warehouse Cloud
+## Overview - Establishing live data integration between Google BigQuery and SAP Datasphere
 
-Connections provide access to data from a wide range of sources, cloud as well as on-premise sources, SAP and Non-SAP sources, and partner tools. They allow space members to use entities from the connected source to acquire, prepare and access data from those sources in SAP Data Warehouse Cloud.
+Connections provide access to data from a wide range of sources, cloud as well as on-premise sources, SAP and Non-SAP sources, and partner tools. They allow space members to use entities from the connected source to acquire, prepare and access data from those sources in SAP Datasphere.
 
 In the "Connections" section of SAP DWC we already created live connectivity to Google Bigquery by providing a service key from GCP account. This connection is used in the next steps of Hands-on challenges to create data views on remote tables from Google BigQuery.
 
@@ -60,6 +60,6 @@ You can find the shared views and tables in **Repository Explorer**. Those share
 
 ## Summary
 
-The goal of this introduction was to give a clear understanding of the concepts and techniques involved in creating a DWC live data connection to Google BigQuery and exploring the provided data model. 
+The goal of this introduction was to give a clear understanding of the concepts and techniques involved in creating a Datasphere live data connection to Google BigQuery and exploring the provided data model. 
 
 Continue to - [Challenge 1](../ex2/README.md)
