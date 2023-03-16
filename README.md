@@ -1,8 +1,8 @@
-#  How to Enable Category Management with Google BigQuery and SAP Data Warehouse Cloud / SAP Analytics Cloud
+#  How to Enable Category Management with Google BigQuery and SAP Datasphere / SAP Analytics Cloud
 
 ## Description
 
-This repository contains the material for the Hands-on session called **Enable Category Management with Google BigQuery and SAP Data Warehouse Cloud / SAP Analytics Cloud**.  
+This repository contains the material for the Hands-on session called **Enable Category Management with Google BigQuery and SAP Datasphere / SAP Analytics Cloud**.  
 
 ## Overview
 
@@ -19,7 +19,7 @@ Unified data federation architecture allows customers to combine external data s
 
 
 ## Solution Overview
-After configuring the Google BigQuery and SAP Data Warehouse Cloud connection, customers can create data models combining external and SAP data to unlock new insights. Through SAP Analytics Cloud (SAC) customers can do live on the fly analysis across multiple data sources in real-time.
+After configuring the Google BigQuery and SAP Datasphere connection, customers can create data models combining external and SAP data to unlock new insights. Through SAP Analytics Cloud (SAC) customers can do live on the fly analysis across multiple data sources in real-time.
 
 
 ![Highlevel Architecture](images/solutiondiagram.png)
@@ -32,13 +32,13 @@ After configuring the Google BigQuery and SAP Data Warehouse Cloud connection, c
 
 | System                            | User                            | Password   |
 | --------------------------------- | ------------------------------- | ---------- |
-| [SAP Data Warehouse Cloud](https://ccebd5f3-3595-488d-846d-eda360636613.us10.hcs.cloud.sap/dwaas-ui/index.html#/home) | ghack\<STUDENT>@saptfe-demo.com  | provided by instructor |
+| [SAP Datasphere](https://ccebd5f3-3595-488d-846d-eda360636613.us10.hcs.cloud.sap/dwaas-ui/index.html#/home) | ghack\<STUDENT>@saptfe-demo.com  | provided by instructor |
 | [SAP Analytics Cloud](https://sunrise.us10.hcs.cloud.sap/sap/fpa/ui/app.html#/home) | ghack\<STUDENT>@saptfe-demo.com  | provided by instructor |
 
 ## Challenges
 
-- [Discover - Understand SAP Data Warehouse Cloud and Google BigQuery setup and given data models](challenges/ex1/)
-- [Challenge 1 - Build and expose data views on SAP Data Warehouse Cloud](challenges/ex2/)
+- [Discover - Understand SAP Datasphere and Google BigQuery setup and given data models](challenges/ex1/)
+- [Challenge 1 - Build and expose data views on SAP Datasphere](challenges/ex2/)
 - [Challenge 2 - Create a Category Management Dashboard on SAP Analytics Cloud](challenges/ex3/)
 
 ## How to obtain support
