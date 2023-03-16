@@ -1,6 +1,6 @@
-# Challenge 1 - Build and expose data views on SAP Data Warehouse Cloud
+# Challenge 1 - Build and expose data views on SAP Datasphere
 
-In this challenge, you will construct and display data views on SAP Data Warehouse Cloud by utilizing predefined views from BigQuery and SAP S/4HANA. This process involves taking advantage of the rich data stored in BigQuery and incorporating it into your SAP Data Warehouse Cloud for analysis and reporting purposes. At the end of the challenge, the created views will be exposed and can be accessed from SAP Analytics Cloud to build interactive dashboards and generate meaningful insights. By combining the power of SAP Data Warehouse Cloud and SAP Analytics Cloud, you can gain a comprehensive view of your data and make informed decisions.
+In this challenge, you will construct and display data views on SAP Datasphere by utilizing predefined views from BigQuery and SAP S/4HANA. This process involves taking advantage of the rich data stored in BigQuery and incorporating it into your SAP Datasphere for analysis and reporting purposes. At the end of the challenge, the created views will be exposed and can be accessed from SAP Analytics Cloud to build interactive dashboards and generate meaningful insights. By combining the power of SAP Datasphere and SAP Analytics Cloud, you can gain a comprehensive view of your data and make informed decisions.
 
 
 ## Challenge 1.1 Creating a new view of "Product Sales Country" 
@@ -25,14 +25,14 @@ Your objective is to successfully complete these steps and generate a comprehens
 <details>
   <summary>Solution</summary>
 
-1. 👉 Open your [SAP Data Warehouse Cloud](https://ccebd5f3-3595-488d-846d-eda360636613.us10.hcs.cloud.sap/dwaas-ui/index.html#/home) using the provided credentials.
+1. 👉 Open your [SAP Datasphere](https://ccebd5f3-3595-488d-846d-eda360636613.us10.hcs.cloud.sap/dwaas-ui/index.html#/home) using the provided credentials.
    
    Your user is associated with unique space (CATEGORY_MGMT_\<STUDENT>) where you can work and create your data artifacts. 
    
     ![New View](../../images/dwchome.png)
 
 
-2. 👉 Go to **SAP DWC Data Builder** and create **New Graphical View**
+2. 👉 Go to **SAP Datasphere Data Builder** and create **New Graphical View**
     
     ![New View](../../images/newgraphview.png)
 
@@ -128,7 +128,7 @@ Your objective is to successfully complete these steps and generate a comprehens
 <details>
   <summary>Solution</summary>
 
-1. 👉 Go to **SAP DWC Data Builder** and create **New Graphical View**
+1. 👉 Go to **SAP Datasphere Data Builder** and create **New Graphical View**
     
     ![New View](../../images/newgraphview.png)
 
@@ -183,6 +183,6 @@ Your objective is to successfully complete these steps and generate a comprehens
 
 ## Summary
 
-The goal of Challenge 1 was to create two views in SAP Data Warehouse Cloud (DWC). The final view, "Product Sales by Country and Discount" was exposed and will be utilized by SAP Analytics Cloud to create a dashboard. This view provides insights into the sales of products by country and the discounts offered, which can be used to inform strategic business decisions. 
+The goal of Challenge 1 was to create two views in SAP Datasphere. The final view, "Product Sales by Country and Discount" was exposed and will be utilized by SAP Analytics Cloud to create a dashboard. This view provides insights into the sales of products by country and the discounts offered, which can be used to inform strategic business decisions. 
 
 Continue to - [Challenge 2](../ex3/README.md)
