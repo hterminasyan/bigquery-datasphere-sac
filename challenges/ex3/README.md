@@ -38,22 +38,16 @@ The challenge is to add the "Product_Sales_Country_Discount" view from SAP Datas
 <details>
   <summary>Solution</summary>
 
-1. 👉 Go to the **Tools** and press **Add new Data**, then select **Data from a data source**
+1. 👉 Go to the **Tools** and press **Add new Data**, then select **Data from an existing dataset or model**
     
     ![SAC Data](../../images/sacdata.png)
 
-
-2.  👉 Choose **SAP Datasphere** as a source from the "Connect to Live Data" section
-    
-    ![SAC Data](../../images/sacdwcdata.png)
-
-
-3.  👉 Select the connection, your space and the dataset
+2.  👉 Select the connection **SAP Datasphere** as a source, your space and the dataset
     - Connection: **PAADWC**
     - Space: **CATEGORY_MGMT_\<STUDENT>**
     - Dataset: **Product_Sales_Country_Discount**
   
-    ![SAC Data](../../images/sacdwcdataset.png)
+    ![SAC Data](../../images/select_datasphere.png)
 
 </details>
 
