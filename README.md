@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository contains the material for the Hands-on session called **Enable Category Management with Google BigQuery and SAP Datasphere / SAP Analytics Cloud**. This is a scaled-down of the more comprehensive version ["Enable Category Management with BigQuery and SAP Datasphere"](https://discovery-center.cloud.sap/missiondetail/3666/3709/), which is available in the Discovery Center.
+This repository contains the material for the Hands-on session called **Enable Category Management with Google BigQuery and SAP Datasphere / SAP Analytics Cloud**. This is a scaled-down version of the original Discovery Center mission ["Enable Category Management with BigQuery and SAP Datasphere"](https://discovery-center.cloud.sap/missiondetail/3666/3709/).
 
 ## Overview
 
