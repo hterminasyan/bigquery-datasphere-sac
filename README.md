@@ -22,7 +22,7 @@ Unified data federation architecture allows customers to combine external data s
 After configuring the Google BigQuery and SAP Datasphere connection, customers can create data models combining external and SAP data to unlock new insights. Through SAP Analytics Cloud (SAC) customers can do live on the fly analysis across multiple data sources in real-time.
 
 
-![Highlevel Architecture](images/solutiondiagram.png)
+![Highlevel Architecture](images/solutiondiagram.jpg)
 
 
 ## User Credentials
