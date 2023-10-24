@@ -1,8 +1,4 @@
-#  How to Enable Category Management with Google BigQuery and SAP Datasphere / SAP Analytics Cloud
-
-## Description
-
-This repository contains the material for the Hands-on session called **Enable Category Management with Google BigQuery and SAP Datasphere / SAP Analytics Cloud**. This is a scaled-down version of the original Discovery Center mission ["Enable Category Management with BigQuery and SAP Datasphere"](https://discovery-center.cloud.sap/missiondetail/3666/3709/).
+# Category Management with Google BigQuery and SAP Datasphere / SAP Analytics Cloud
 
 ## Overview
 
@@ -25,22 +21,25 @@ After configuring the Google BigQuery and SAP Datasphere connection, customers c
 ![Highlevel Architecture](images/solutiondiagram.jpg)
 
 
-## User Credentials
+## Story
 
-**IMPORTANT**: A student number has been given to you. You will repeatedly see the placeholder **\<STUDENT>** throughout the entire session. Please replace this placeholder with your own student number whenever it's needed.
+In today's competitive online marketplace, understanding customer behavior and optimizing sales strategy is crucial for success. Category managers need to analyze product performance and uncover hidden insights to drive revenue growth. By combining data from external sources like Google Analytics with sales, discounts, and stock data from SAP systems, we can create a holistic and real-time view of category performance. 
+
+**Category Manager:** Let's imagine that we want to analyze our digital sales performance for a specific product category and understand how it is impacted by factors such as discounts, stock availability, and competition. We need to combine data from Google Analytics and our SAP systems to get a holistic view of the situation.
+
+SAP Datasphere uses a data federation approach that allows us to access data from multiple sources in one central location, without the need for replication. This means that we can combine our Google BigQuery and SAP data sources for live category analysis with state-of-the-art performance.
+
+1. To begin, we need to configure the connection between Google BigQuery and SAP Datasphere. This will enable us to create data models that combine external and SAP data to unlock new insights.
+2. Once the connection is established and data is harmonized, we can use SAP analytics Cloud to perform live, on-the-fly analysis across multiple data sources in real-time. This will allow us to understand the root cause of the customer journey and optimize our online sales strategy accordingly.
+3. With a holistic and real-time view of category performance I can uncover hidden insights and potential revenue growth for certain product categories by understanding the behavior over time and correlations with other competitive products. In a single view I can see the performance of my product categories via smart insights that use the power of machine learning to help explain trends and patterns in the data.
+
+
+
+## User Credentials
 
 
 | System                            | User                            | Password   |
 | --------------------------------- | ------------------------------- | ---------- |
-| [SAP Datasphere](https://ccebd5f3-3595-488d-846d-eda360636613.us10.hcs.cloud.sap/dwaas-ui/index.html#/home) | ghack\<STUDENT>@saptfe-demo.com  | provided by instructor |
-| [SAP Analytics Cloud](https://sunrise.us10.hcs.cloud.sap/sap/fpa/ui/app.html#/home) | ghack\<STUDENT>@saptfe-demo.com  | provided by instructor |
+| [SAP Datasphere](https://ccebd5f3-3595-488d-846d-eda360636613.us10.hcs.cloud.sap/dwaas-ui/index.html#/home) | demo@saptfe-demo.com  | provided by instructor |
+| [SAP Analytics Cloud](https://sunrise.us10.hcs.cloud.sap/sap/fpa/ui/app.html#/home) | demo@saptfe-demo.com  | provided by instructor |
 
-## Challenges
-
-- [Discover - Understand SAP Datasphere and Google BigQuery setup and given data models](challenges/ex1/)
-- [Challenge 1 - Build and expose data views on SAP Datasphere](challenges/ex2/)
-- [Challenge 2 - Create a Category Management Dashboard on SAP Analytics Cloud](challenges/ex3/)
-
-## How to obtain support
-
-Support for the content in this repository is available during the actual time of the session for which this content has been designed. Otherwise, you may request support via the [Issues](../../issues) tab.
