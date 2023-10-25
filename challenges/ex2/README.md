@@ -1,7 +1,6 @@
 # Challenge 1 - Build and expose data views on SAP Datasphere
 
-In this challenge, you will construct and display data views on SAP Datasphere by utilizing predefined views from BigQuery and SAP S/4HANA. This process involves taking advantage of the rich data stored in BigQuery and incorporating it into your SAP Datasphere for analysis and reporting purposes. At the end of the challenge, the created views will be exposed and can be accessed from SAP Analytics Cloud to build interactive dashboards and generate meaningful insights. By combining the power of SAP Datasphere and SAP Analytics Cloud, you can gain a comprehensive view of your data and make informed decisions.
-
+In this challenge, you will construct and display data views on SAP Datasphere by utilizing predefined views from BigQuery and SAP S/4HANA. This process involves taking advantage of the rich data stored in BigQuery and incorporating it into SAP Datasphere for analysis and reporting purposes. At the end of the challenge, the created views will be exposed and can be accessed from SAP Analytics Cloud to build interactive dashboards and generate meaningful insights. By combining the power of SAP Datasphere and SAP Analytics Cloud, you can gain a comprehensive view of your data and make informed decisions.
 
 ## Challenge 1.1 Creating a new view of "Product Sales Country" 
 
@@ -14,7 +13,7 @@ To achieve this, you will need to perform the following steps:
 2. Add a formula with a new calculated property to further enhance the insights generated from the data
    >HINT: the formula should add new column "DATESTR" which converts datatype DATE to NVARCHAR -> TO_NVARCHAR(DATE, 'YYYYMMDD')
 3. Join the projection with the "Hits by Session Country" table to provide a complete picture of product sales by location
-   >HINT: you need to map following attributes: Country and DAESTR/DATET
+   >HINT: you need to map following attributes: Country and DATESTR/DATET
 4. Create an **Association** of the final view to **Time Dimension - Day**
    >HINT: you need to map following attribute: DATE
 
@@ -27,7 +26,7 @@ Your objective is to successfully complete these steps and generate a comprehens
 
 1. 👉 Open your [SAP Datasphere](https://ccebd5f3-3595-488d-846d-eda360636613.us10.hcs.cloud.sap/dwaas-ui/index.html#/home) using the provided credentials.
    
-   Your user is associated with unique space (CATEGORY_MGMT_\<STUDENT>) where you can work and create your data artifacts. 
+   Your user is associated with unique space (PRODUCT_ANALYTICS_\<STUDENT>) where you can work and create your data artifacts. 
    
     ![New View](../../images/dwchome.png)
 

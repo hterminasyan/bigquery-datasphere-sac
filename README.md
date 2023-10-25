@@ -1,28 +1,28 @@
-#  How to Enable Category Management with Google BigQuery and SAP Datasphere / SAP Analytics Cloud
+#  Drive Profitable Growth with Google BigQuery, SAP Datasphere, and SAP Analytics Cloud
 
 ## Description
 
-This repository contains the material for the Hands-on session called **Enable Category Management with Google BigQuery and SAP Datasphere / SAP Analytics Cloud**. This is a scaled-down version of the original Discovery Center mission ["Enable Category Management with BigQuery and SAP Datasphere"](https://discovery-center.cloud.sap/missiondetail/3666/3709/).
+This repository contains the material for the Hands-on session called **Drive Profitable Growth with Google BigQuery and SAP Datasphere / SAP Analytics Cloud**. This is a scaled-down version of the original Discovery Center mission ["Drive Profitable Growth with BigQuery and SAP Datasphere"](https://discovery-center.cloud.sap/missiondetail/3666/3709/).
 
 ## Overview
 
-This usecase provides the ability to analyze category performance for digital/online sales by combining external source systems like Google Analytics and sales, discounts, and stock data from SAP systems. With a data federation architecture, it is possible to leave data in its source system and access it in one location without replication. With this architecture, customers can combine their BigQuery and SAP data to derive new insights.
+This use case provides the ability to analyze product performance for digital/online sales by combining external source systems like Google Analytics and sales, discounts, and stock data from SAP systems. With a data federation architecture, it is possible to leave data in its source system and access it in one location without replication. With this architecture, customers can combine their BigQuery and SAP data to derive new insights.
 
 ![Scenario](images/scenario.png)
 
 ## Challenges and Business Drivers
-Data on multiple scattered source systems (external and SAP) make analysis of category performance difficult. The inability and the high cost of bringing data sources together make root cause analysis of online sales a burdensome process.
+Data on multiple scattered source systems (external and SAP) make analysis of product performance difficult. The inability and the high cost of bringing data sources together make root cause analysis of online sales a burdensome process.
 
 ## Outcome
 
-Unified data federation architecture allows customers to combine external data sources (Google Analytics and Google BigQuery) with SAP data sources for live category analysis without business data replication and with state-of-the-art performance in one central location.
+Unified data federation architecture allows customers to combine external data sources (Google Analytics and Google BigQuery) with SAP data sources for live analysis without business data replication and with state-of-the-art performance in one central location.
 
 
 ## Solution Overview
-After configuring the Google BigQuery and SAP Datasphere connection, customers can create data models combining external and SAP data to unlock new insights. Through SAP Analytics Cloud (SAC) customers can do live on the fly analysis across multiple data sources in real-time.
+After configuring the Google BigQuery and SAP Datasphere connection, customers can create data models combining external and SAP data to unlock new insights. Through SAP Analytics Cloud (SAC) customers can do on-the-fly analysis across multiple data sources in real-time.
 
 
-![Highlevel Architecture](images/solutiondiagram.jpg)
+![High level Architecture](images/solutiondiagram.jpg)
 
 
 ## User Credentials
@@ -39,7 +39,7 @@ After configuring the Google BigQuery and SAP Datasphere connection, customers c
 
 - [Discover - Understand SAP Datasphere and Google BigQuery setup and given data models](challenges/ex1/)
 - [Challenge 1 - Build and expose data views on SAP Datasphere](challenges/ex2/)
-- [Challenge 2 - Create a Category Management Dashboard on SAP Analytics Cloud](challenges/ex3/)
+- [Challenge 2 - Create a product performance dashboard on SAP Analytics Cloud](challenges/ex3/)
 
 ## How to obtain support
 

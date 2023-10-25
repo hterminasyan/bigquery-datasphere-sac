@@ -1,11 +1,11 @@
-# Challenge 2 - Create a Category Management Dashboard on SAP Analytics Cloud
+# Challenge 2 - Create a Product Performance Dashboard on SAP Analytics Cloud
 
-This challenge will focus on using the views created in a previous challenge to create rich Category Management reports in SAP Analytics Cloud. By integrating these data sources, the reports will allow for powerful data analysis and visualization of the sales performance of different product categories. The information gathered from these reports can be used to make informed decisions about product assortment, pricing, and promotions. The use of Big Query and SAP source systems will ensure that the data used in these reports is accurate, up-to-date, and consistent, providing a solid foundation for effective Category Management decision-making.
+This challenge will focus on using the views created in a previous challenge to create rich reports in SAP Analytics Cloud. By integrating these data sources, the reports will allow for powerful data analysis and visualization of the sales performance of different product categories. The information gathered from these reports can be used to make informed decisions about product assortment, pricing, and promotions. The use of BigQuery and SAP source systems will ensure that the data used in these reports is accurate, up-to-date, and consistent, providing a solid foundation for effective decision-making.
 
 
-## Challenge 2.1 Creating the Layout for the Category Management Dashboard
+## Challenge 2.1 Creating the Layout for the Product Performance Dashboard
 
-The challenge is to create the layout for a Category Management Dashboard based on the displayed image. Determine the appropriate size and placement of each component to ensure a clear and concise presentation of the data.
+The challenge is to create the layout for a Product Performance Dashboard based on the displayed image. Determine the appropriate size and placement of each component to ensure a clear and concise presentation of the data.
 
   ![Layout](../../images/layout-result.png)
 
@@ -44,7 +44,7 @@ The challenge is to add the "Product_Sales_Country_Discount" view from SAP Datas
 
 2.  👉 Select the connection **SAP Datasphere** as a source, your space and the dataset
     - Connection: **PAADWC**
-    - Space: **CATEGORY_MGMT_\<STUDENT>**
+    - Space: **PRODUCT_ANALYTICS_\<STUDENT>**
     - Dataset: **Product_Sales_Country_Discount**
   
     ![SAC Data](../../images/select_datasphere.png)
@@ -231,7 +231,7 @@ Finally, after having the charts, you can add some input controls to filter the 
 
     After defining those filters you can filter the dashboard by country, time, product category, and product variant. This allows for deeper insights into the data by allowing you to view specific subsets of information based on your needs.
 
-4. Save the **Story** e.g. with a name "CategoryMgmt_\<STUDENT>"
+4. Save the **Story** e.g. with a name "ProductAnalytics_\<STUDENT>"
 
 </details>
 
