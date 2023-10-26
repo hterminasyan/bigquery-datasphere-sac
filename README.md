@@ -1,21 +1,21 @@
-# Category Management with Google BigQuery and SAP Datasphere / SAP Analytics Cloud
+# Drive Profitable Growth with Google BigQuery, SAP Datasphere, and SAP Analytics Cloud
 
 ## Overview
 
-This usecase provides the ability to analyze category performance for digital/online sales by combining external source systems like Google Analytics and sales, discounts, and stock data from SAP systems. With a data federation architecture, it is possible to leave data in its source system and access it in one location without replication. With this architecture, customers can combine their BigQuery and SAP data to derive new insights.
+This use case provides the ability to analyze product performance for digital/online sales by combining external source systems like Google Analytics and sales, discounts, and stock data from SAP systems. With a data federation architecture, it is possible to leave data in its source system and access it in one location without replication. With this architecture, customers can combine their BigQuery and SAP data to derive new insights.
 
 ![Scenario](images/scenario.png)
 
 ## Challenges and Business Drivers
-Data on multiple scattered source systems (external and SAP) make analysis of category performance difficult. The inability and the high cost of bringing data sources together make root cause analysis of online sales a burdensome process.
+Data on multiple scattered source systems (external and SAP) make analysis of product performance difficult. The inability and the high cost of bringing data sources together make root cause analysis of online sales a burdensome process.
 
 ## Outcome
 
-Unified data federation architecture allows customers to combine external data sources (Google Analytics and Google BigQuery) with SAP data sources for live category analysis without business data replication and with state-of-the-art performance in one central location.
+Unified data federation architecture allows customers to combine external data sources (Google Analytics and Google BigQuery) with SAP data sources for live analysis without business data replication and with state-of-the-art performance in one central location.
 
 
 ## Solution Overview
-After configuring the Google BigQuery and SAP Datasphere connection, customers can create data models combining external and SAP data to unlock new insights. Through SAP Analytics Cloud (SAC) customers can do live on the fly analysis across multiple data sources in real-time.
+After configuring the Google BigQuery and SAP Datasphere connection, customers can create data models combining external and SAP data to unlock new insights. Through SAP Analytics Cloud (SAC) customers can do on-the-fly analysis across multiple data sources in real-time.
 
 
 ![Highlevel Architecture](images/solutiondiagram.jpg)
@@ -23,15 +23,15 @@ After configuring the Google BigQuery and SAP Datasphere connection, customers c
 
 ## Story
 
-In today's competitive online marketplace, understanding customer behavior and optimizing sales strategy is crucial for success. Category managers need to analyze product performance and uncover hidden insights to drive revenue growth. By combining data from external sources like Google Analytics with sales, discounts, and stock data from SAP systems, we can create a holistic and real-time view of category performance. 
+In today's competitive online marketplace, understanding customer behavior and optimizing sales strategy is crucial for success. Managers need to analyze product performance and uncover hidden insights to drive revenue growth. By combining data from external sources like Google Analytics with sales, discounts, and stock data from SAP systems, we can create a holistic and real-time view of product performance. 
 
-**Category Manager:** Let's imagine that we want to analyze our digital sales performance for a specific product category and understand how it is impacted by factors such as discounts, stock availability, and competition. We need to combine data from Google Analytics and our SAP systems to get a holistic view of the situation.
+**Manager:** Let's imagine that we want to analyze our digital sales performance for a specific product and understand how it is impacted by factors such as discounts, stock availability, and competition. We need to combine data from Google Analytics and our SAP systems to get a holistic view of the situation.
 
-SAP Datasphere uses a data federation approach that allows us to access data from multiple sources in one central location, without the need for replication. This means that we can combine our Google BigQuery and SAP data sources for live category analysis with state-of-the-art performance.
+SAP Datasphere uses a data federation approach that allows us to access data from multiple sources in one central location, without the need for replication. This means that we can combine our Google BigQuery and SAP data sources for live performance analysis with state-of-the-art performance.
 
 1. To begin, we need to configure the connection between Google BigQuery and SAP Datasphere. This will enable us to create data models that combine external and SAP data to unlock new insights.
 2. Once the connection is established and data is harmonized, we can use SAP analytics Cloud to perform live, on-the-fly analysis across multiple data sources in real-time. This will allow us to understand the root cause of the customer journey and optimize our online sales strategy accordingly.
-3. With a holistic and real-time view of category performance I can uncover hidden insights and potential revenue growth for certain product categories by understanding the behavior over time and correlations with other competitive products. In a single view I can see the performance of my product categories via smart insights that use the power of machine learning to help explain trends and patterns in the data.
+3. With a holistic and real-time view of product performance I can uncover hidden insights and potential revenue growth for certain products by understanding the behavior over time and correlations with other competitive products. In a single view I can see the performance of my product via smart insights that use the power of machine learning to help explain trends and patterns in the data.
 
 
 
