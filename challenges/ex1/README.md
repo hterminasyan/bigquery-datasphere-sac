@@ -15,7 +15,7 @@
 
 
 In this hands-on session, you will work with a sample BigQuery and sample SAP S/4HANA dataset. 
-To analyze category performance for digital/online sales you can combine external source systems like Google Analytics and sales, discounts, and stock data from SAP S/4HANA systems.
+To analyze product performance for digital/online sales you can combine external source systems like Google Analytics and sales, discounts, and stock data from SAP S/4HANA systems.
 
 To achieve this we can use public data sets of Google Analytics. In Google BigQuery public data sets are pre-loaded and publicly accessible data sets. You can use them to develop and test your queries, and/or gain insights into a variety of topics.
 
@@ -41,18 +41,18 @@ In the "Connections" section of SAP Datasphere we already created live connectiv
 ![BigQuery](../../images/bigqueryconnection.png)
 
 
-## Overview of final view required for Analytics Dashboard
+## Overview of final view required for analytics dashboard
 
-The below diagram shows the final result of the view which is essential for the Analytics Dashboard. This result is crucial to providing valuable insights and data representation in the dashboard.
+The below diagram shows the final result of the view which is essential for the analytics dashboard. This result is crucial to providing valuable insights and data representation in the dashboard.
 
 >You can once again visually see the remote tables from BigQuery and SAP S/4HANA
 
->In a diagram is also marked the views, which you will create in challanges yourself
+>In this diagram the views, which you will create in the challenges, are also marked. 
 
 ![Final View](../../images/finalview.png)
 
 
-You can find the shared views and tables in **Repository Explorer**. Those shared objects should be used in **Challange 1** to model the new views.
+You can find the shared views and tables in the **Repository Explorer**. Those shared objects should be used in **Challenge 1** to model the new views.
 
 ![repositoryexplorer](../../images/repositoryexplorer.png)
 
