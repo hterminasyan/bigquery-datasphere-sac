@@ -21,7 +21,7 @@ After configuring the Google BigQuery and SAP Datasphere connection, customers c
 ![Highlevel Architecture](images/solutiondiagram.jpg)
 
 
-## Story
+## Demo Story
 
 In today's competitive online marketplace, understanding customer behavior and optimizing sales strategy is crucial for success. Managers need to analyze product performance and uncover hidden insights to drive revenue growth. By combining data from external sources like Google Analytics with sales, discounts, and stock data from SAP systems, we can create a holistic and real-time view of product performance. 
 
